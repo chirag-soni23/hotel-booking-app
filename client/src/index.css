@@ -1,0 +1,84 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+html , body{
+    height: 100%;
+     width: 100%;
+}
+
+.navbar{
+  background-color: black !important;
+  padding: 10px !important;
+}
+.nav-link{
+  color: #fff !important;
+}
+.navbar-brand{
+  color: #fff !important;
+}
+.navbar-nav{
+  margin-left: auto !important;
+}
+.smallimg{
+  height:200px;
+  width:100% !important;
+  border-radius: 5px !important;
+}
+h1{
+  font-size: 20px !important;
+
+}
+.btn{
+  background-color: #000 ;
+  color: #fff;
+  box-shadow: none;
+}
+.btn:hover{
+  background-color: #555555;
+  color: #fff;
+}
+.bs{
+  box-shadow: rgba(0,0,0,0.35)0px 5px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 20px !important;
+}
+.bigimg{
+  height: 400px;
+}
+.input , select,.ant-picker{
+box-shadow: none !important;
+margin-top: 10px;
+border:1px solid black !important; 
+width: 100% !important;
+border-radius: 3px;
+height: 35px !important;
+}
+h2{
+  font-size: 30px ;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.dropdown-toggle{
+  border:0px solid black !important;
+}
+.ant-picker-input input{
+  border: none !important;
+}
+p{
+  font-size: 16px !important;
+
+}
+.landing{
+  background-color: #000 !important;
+  height: 91.7vh;
+  width: 101%;
+  padding-top: 100px;
+}
+.landing .col-md-9{
+  border-right: 5px solid #fff;
+}
